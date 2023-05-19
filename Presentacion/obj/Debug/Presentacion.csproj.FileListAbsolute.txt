@@ -1,0 +1,109 @@
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Form1.resources
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe.config
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\Presentacion.pdb
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\Dominio.dll
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.dll
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\Dominio.pdb
+D:\base de datos\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.pdb
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.exe
+D:\base de datos\AplicacionCapas\Presentacion\obj\Debug\Presentacion.pdb
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Form1.resources
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.exe
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.pdb
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe.config
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.pdb
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Dominio.dll
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.dll
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Dominio.pdb
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.pdb
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+E:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.AccesoLogin.resources
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe.config
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.exe
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Presentacion.pdb
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Dominio.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Dominio.pdb
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\AccesoDatos.pdb
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.AccesoLogin.resources
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.exe
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.pdb
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Forma.resources
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\Presentacion.Reportes.resources
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\RdlCompile.cache
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\obj\Debug\RdlCompile.compiled
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\EnvDTE.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\stdole.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\Microsoft.MSXML.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ZANAHORIA\dir0002.chk\AplicacionCapas\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll

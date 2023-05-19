@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VILLAEJEMPLODataSet" targetNamespace="http://tempuri.org/VILLAEJEMPLODataSet.xsd" xmlns:mstns="http://tempuri.org/VILLAEJEMPLODataSet.xsd" xmlns="http://tempuri.org/VILLAEJEMPLODataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="VILLAEJEMPLOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="VILLAEJEMPLOConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Presentacion.Properties.Settings.GlobalReference.Default.VILLAEJEMPLOConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VKardexTableAdapter" GeneratorDataComponentClassName="VKardexTableAdapter" Name="VKardex" UserDataComponentName="VKardexTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VILLAEJEMPLOConnectionString (Settings)" DbObjectName="VILLAEJEMPLO.dbo.VKardex" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ClaveMateria, Materia, Grado, Calificacion, Estado, NombreAlumno, fechaEntrada, Promedio FROM dbo.VKardex</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ClaveMateria" DataSetColumn="ClaveMateria" />
+              <Mapping SourceColumn="Materia" DataSetColumn="Materia" />
+              <Mapping SourceColumn="Grado" DataSetColumn="Grado" />
+              <Mapping SourceColumn="Calificacion" DataSetColumn="Calificacion" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+              <Mapping SourceColumn="NombreAlumno" DataSetColumn="NombreAlumno" />
+              <Mapping SourceColumn="fechaEntrada" DataSetColumn="fechaEntrada" />
+              <Mapping SourceColumn="Promedio" DataSetColumn="Promedio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AlumnoTableAdapter" GeneratorDataComponentClassName="AlumnoTableAdapter" Name="Alumno" UserDataComponentName="AlumnoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="VILLAEJEMPLOConnectionString (Settings)" DbObjectName="VILLAEJEMPLO.dbo.Alumno" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[Alumno] WHERE (([idAlumno] = @Original_idAlumno) AND ([matricula] = @Original_matricula) AND ([nombreAlumno] = @Original_nombreAlumno) AND ([apellidoPaterno] = @Original_apellidoPaterno) AND ((@IsNull_apellidoMaterno = 1 AND [apellidoMaterno] IS NULL) OR ([apellidoMaterno] = @Original_apellidoMaterno)) AND ((@IsNull_sexo = 1 AND [sexo] IS NULL) OR ([sexo] = @Original_sexo)) AND ([CURP] = @Original_CURP) AND ((@IsNull_telefono = 1 AND [telefono] IS NULL) OR ([telefono] = @Original_telefono)) AND ([estadoAlumno] = @Original_estadoAlumno) AND ([fechaEntrada] = @Original_fechaEntrada) AND ([gradoActual] = @Original_gradoActual))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_idAlumno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="idAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_matricula" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="matricula" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_nombreAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nombreAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_apellidoPaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoPaterno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_apellidoMaterno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_apellidoMaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sexo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sexo" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_CURP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CURP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_telefono" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_telefono" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_estadoAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="estadoAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_fechaEntrada" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="fechaEntrada" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@Original_gradoActual" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="gradoActual" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Alumno] ([matricula], [nombreAlumno], [apellidoPaterno], [apellidoMaterno], [sexo], [CURP], [telefono], [estadoAlumno], [fechaEntrada], [gradoActual]) VALUES (@matricula, @nombreAlumno, @apellidoPaterno, @apellidoMaterno, @sexo, @CURP, @telefono, @estadoAlumno, @fechaEntrada, @gradoActual);
+SELECT idAlumno, matricula, nombreAlumno, apellidoPaterno, apellidoMaterno, sexo, CURP, telefono, estadoAlumno, fechaEntrada, gradoActual FROM Alumno WHERE (matricula = @matricula)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@matricula" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="matricula" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nombreAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nombreAlumno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@apellidoPaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoPaterno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@apellidoMaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sexo" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@CURP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CURP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@telefono" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@estadoAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="estadoAlumno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@fechaEntrada" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="fechaEntrada" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@gradoActual" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="gradoActual" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAlumno, matricula, nombreAlumno, apellidoPaterno, apellidoMaterno, sexo, CURP, telefono, estadoAlumno, fechaEntrada, gradoActual FROM dbo.Alumno</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[Alumno] SET [matricula] = @matricula, [nombreAlumno] = @nombreAlumno, [apellidoPaterno] = @apellidoPaterno, [apellidoMaterno] = @apellidoMaterno, [sexo] = @sexo, [CURP] = @CURP, [telefono] = @telefono, [estadoAlumno] = @estadoAlumno, [fechaEntrada] = @fechaEntrada, [gradoActual] = @gradoActual WHERE (([idAlumno] = @Original_idAlumno) AND ([matricula] = @Original_matricula) AND ([nombreAlumno] = @Original_nombreAlumno) AND ([apellidoPaterno] = @Original_apellidoPaterno) AND ((@IsNull_apellidoMaterno = 1 AND [apellidoMaterno] IS NULL) OR ([apellidoMaterno] = @Original_apellidoMaterno)) AND ((@IsNull_sexo = 1 AND [sexo] IS NULL) OR ([sexo] = @Original_sexo)) AND ([CURP] = @Original_CURP) AND ((@IsNull_telefono = 1 AND [telefono] IS NULL) OR ([telefono] = @Original_telefono)) AND ([estadoAlumno] = @Original_estadoAlumno) AND ([fechaEntrada] = @Original_fechaEntrada) AND ([gradoActual] = @Original_gradoActual));
+SELECT idAlumno, matricula, nombreAlumno, apellidoPaterno, apellidoMaterno, sexo, CURP, telefono, estadoAlumno, fechaEntrada, gradoActual FROM Alumno WHERE (matricula = @matricula)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@matricula" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="matricula" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nombreAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nombreAlumno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@apellidoPaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoPaterno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@apellidoMaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@sexo" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@CURP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CURP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@telefono" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@estadoAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="estadoAlumno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@fechaEntrada" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="fechaEntrada" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@gradoActual" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="gradoActual" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_idAlumno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="idAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_matricula" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="matricula" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_nombreAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nombreAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_apellidoPaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoPaterno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_apellidoMaterno" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_apellidoMaterno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="apellidoMaterno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_sexo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiStringFixedLength" Direction="Input" ParameterName="@Original_sexo" Precision="0" ProviderType="Char" Scale="0" Size="0" SourceColumn="sexo" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_CURP" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="CURP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_telefono" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_telefono" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="telefono" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_estadoAlumno" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="estadoAlumno" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@Original_fechaEntrada" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="fechaEntrada" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int16" Direction="Input" ParameterName="@Original_gradoActual" Precision="0" ProviderType="SmallInt" Scale="0" Size="0" SourceColumn="gradoActual" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idAlumno" DataSetColumn="idAlumno" />
+              <Mapping SourceColumn="matricula" DataSetColumn="matricula" />
+              <Mapping SourceColumn="nombreAlumno" DataSetColumn="nombreAlumno" />
+              <Mapping SourceColumn="apellidoPaterno" DataSetColumn="apellidoPaterno" />
+              <Mapping SourceColumn="apellidoMaterno" DataSetColumn="apellidoMaterno" />
+              <Mapping SourceColumn="sexo" DataSetColumn="sexo" />
+              <Mapping SourceColumn="CURP" DataSetColumn="CURP" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+              <Mapping SourceColumn="estadoAlumno" DataSetColumn="estadoAlumno" />
+              <Mapping SourceColumn="fechaEntrada" DataSetColumn="fechaEntrada" />
+              <Mapping SourceColumn="gradoActual" DataSetColumn="gradoActual" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="VILLAEJEMPLODataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="VILLAEJEMPLODataSet" msprop:Generator_UserDSName="VILLAEJEMPLODataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VKardex" msprop:Generator_TableClassName="VKardexDataTable" msprop:Generator_TableVarName="tableVKardex" msprop:Generator_TablePropName="VKardex" msprop:Generator_RowDeletingName="VKardexRowDeleting" msprop:Generator_RowChangingName="VKardexRowChanging" msprop:Generator_RowEvHandlerName="VKardexRowChangeEventHandler" msprop:Generator_RowDeletedName="VKardexRowDeleted" msprop:Generator_UserTableName="VKardex" msprop:Generator_RowChangedName="VKardexRowChanged" msprop:Generator_RowEvArgName="VKardexRowChangeEvent" msprop:Generator_RowClassName="VKardexRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClaveMateria" msprop:Generator_ColumnVarNameInTable="columnClaveMateria" msprop:Generator_ColumnPropNameInRow="ClaveMateria" msprop:Generator_ColumnPropNameInTable="ClaveMateriaColumn" msprop:Generator_UserColumnName="ClaveMateria">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Materia" msprop:Generator_ColumnVarNameInTable="columnMateria" msprop:Generator_ColumnPropNameInRow="Materia" msprop:Generator_ColumnPropNameInTable="MateriaColumn" msprop:Generator_UserColumnName="Materia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Grado" msprop:Generator_ColumnVarNameInTable="columnGrado" msprop:Generator_ColumnPropNameInRow="Grado" msprop:Generator_ColumnPropNameInTable="GradoColumn" msprop:Generator_UserColumnName="Grado" type="xs:short" />
+              <xs:element name="Calificacion" msprop:Generator_ColumnVarNameInTable="columnCalificacion" msprop:Generator_ColumnPropNameInRow="Calificacion" msprop:Generator_ColumnPropNameInTable="CalificacionColumn" msprop:Generator_UserColumnName="Calificacion" type="xs:decimal" />
+              <xs:element name="Estado" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_UserColumnName="Estado">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NombreAlumno" msprop:Generator_ColumnVarNameInTable="columnNombreAlumno" msprop:Generator_ColumnPropNameInRow="NombreAlumno" msprop:Generator_ColumnPropNameInTable="NombreAlumnoColumn" msprop:Generator_UserColumnName="NombreAlumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="110" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fechaEntrada" msprop:Generator_ColumnVarNameInTable="columnfechaEntrada" msprop:Generator_ColumnPropNameInRow="fechaEntrada" msprop:Generator_ColumnPropNameInTable="fechaEntradaColumn" msprop:Generator_UserColumnName="fechaEntrada" type="xs:dateTime" />
+              <xs:element name="Promedio" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_UserColumnName="Promedio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Alumno" msprop:Generator_TableClassName="AlumnoDataTable" msprop:Generator_TableVarName="tableAlumno" msprop:Generator_TablePropName="Alumno" msprop:Generator_RowDeletingName="AlumnoRowDeleting" msprop:Generator_RowChangingName="AlumnoRowChanging" msprop:Generator_RowEvHandlerName="AlumnoRowChangeEventHandler" msprop:Generator_RowDeletedName="AlumnoRowDeleted" msprop:Generator_UserTableName="Alumno" msprop:Generator_RowChangedName="AlumnoRowChanged" msprop:Generator_RowEvArgName="AlumnoRowChangeEvent" msprop:Generator_RowClassName="AlumnoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idAlumno" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnidAlumno" msprop:Generator_ColumnPropNameInRow="idAlumno" msprop:Generator_ColumnPropNameInTable="idAlumnoColumn" msprop:Generator_UserColumnName="idAlumno" type="xs:int" />
+              <xs:element name="matricula" msprop:Generator_ColumnVarNameInTable="columnmatricula" msprop:Generator_ColumnPropNameInRow="matricula" msprop:Generator_ColumnPropNameInTable="matriculaColumn" msprop:Generator_UserColumnName="matricula">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombreAlumno" msprop:Generator_ColumnVarNameInTable="columnnombreAlumno" msprop:Generator_ColumnPropNameInRow="nombreAlumno" msprop:Generator_ColumnPropNameInTable="nombreAlumnoColumn" msprop:Generator_UserColumnName="nombreAlumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidoPaterno" msprop:Generator_ColumnVarNameInTable="columnapellidoPaterno" msprop:Generator_ColumnPropNameInRow="apellidoPaterno" msprop:Generator_ColumnPropNameInTable="apellidoPaternoColumn" msprop:Generator_UserColumnName="apellidoPaterno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellidoMaterno" msprop:Generator_ColumnVarNameInTable="columnapellidoMaterno" msprop:Generator_ColumnPropNameInRow="apellidoMaterno" msprop:Generator_ColumnPropNameInTable="apellidoMaternoColumn" msprop:Generator_UserColumnName="apellidoMaterno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sexo" msprop:Generator_ColumnVarNameInTable="columnsexo" msprop:Generator_ColumnPropNameInRow="sexo" msprop:Generator_ColumnPropNameInTable="sexoColumn" msprop:Generator_UserColumnName="sexo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CURP" msprop:Generator_ColumnVarNameInTable="columnCURP" msprop:Generator_ColumnPropNameInRow="CURP" msprop:Generator_ColumnPropNameInTable="CURPColumn" msprop:Generator_UserColumnName="CURP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estadoAlumno" msprop:Generator_ColumnVarNameInTable="columnestadoAlumno" msprop:Generator_ColumnPropNameInRow="estadoAlumno" msprop:Generator_ColumnPropNameInTable="estadoAlumnoColumn" msprop:Generator_UserColumnName="estadoAlumno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fechaEntrada" msprop:Generator_ColumnVarNameInTable="columnfechaEntrada" msprop:Generator_ColumnPropNameInRow="fechaEntrada" msprop:Generator_ColumnPropNameInTable="fechaEntradaColumn" msprop:Generator_UserColumnName="fechaEntrada" type="xs:dateTime" />
+              <xs:element name="gradoActual" msprop:Generator_ColumnVarNameInTable="columngradoActual" msprop:Generator_ColumnPropNameInRow="gradoActual" msprop:Generator_ColumnPropNameInTable="gradoActualColumn" msprop:Generator_UserColumnName="gradoActual" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Alumno" />
+      <xs:field xpath="mstns:matricula" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
